@@ -21,13 +21,13 @@ export default function App() {
       alignItems: "center",
       lineHeight: 2,
       backgroundColor: "#0d1117",
-      paddingTop: "40px",
-      paddingBottom: "40px",
+      paddingTop: "70px",
+      paddingBottom: "70px",
     }}>
       <div className="container" style={{
         color: "#f2f2f2",
         fontFamily: "JetBrains Mono, monospace",
-        fontSize: 16
+        fontSize: 20
       }}><Markdown>{markdown}</Markdown></div>
     </div>
   )
